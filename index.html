@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> webwind</title>
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Black Han Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    body {
+        font-family: 'Black Han Sans';font-size: 22px;
+    }
+    span,.li,h1{
+        background: linear-gradient(to left , #ff4ebb , #2f6dff , #b151ff);
+        -webkit-background-clip: text ;
+        -webkit-text-fill-color: transparent;
+    }
+    .bg{
+        background: linear-gradient(to left , #ff4ebb , #2f6dff , #b151ff);
+    }
+    .m{
+        margin: unset;
+    }
+
+    /* .bd{
+        border: 1px solid #00eaff;
+    } */
+    </style>
+</head>
+<body>
+    <header class="w-[90%] h-[80px] flex items-center justify-between mx-auto bg-white bd">
+        <div>
+            <i class="material-icons li" style="font-size:48px;">computer</i>
+        </div>
+        <div>
+            <h1 class=" text-3xl">webwind</h1>
+        </div>
+        <nav class="hidden md:items-center md:gap-[25px] md:flex ">
+            <ul class="flex items-center gap-[20px]">
+                <li class="li">HOME</li>
+                <li class="li">GITHUB</li>
+                <li class="li">MENU</li>
+            </ul>
+            <span><i class="fa fa-moon-o" style="font-size:36px"></i></span>
+        </nav>
+        
+    </header>
+
+    <main class="w-[90%] h-[70vh] mx-auto mt-[100px] flex  flex-col md:flex-row ">
+        <div class="flex flex-col gap-[20px] items-center text-center justify-center md:w-[60%] md:items-start">
+            <h1 class="text-5xl mb-[25px] text-center">webwind</h1>
+            <p class="mb-[15px] md:text-start  ">
+                the webwind company is a website builder company as 
+                you can also make your own website in our app
+            </p>
+            <button class="px-[14px] py-[14px] bg text-center">
+                get started
+            </button>
+        </div>
+
+        <figure class="flex justify-center items-center md:w-[40%]">
+            <img class="w-[400px] h-[400px]" src="./images/-2147483648_-210085.jpg" alt="web development">
+        </figure>
+       
+    </main>
+
+    <footer class=" bg-gray-200 mt-[20px] p-4 ">
+        <section >
+            <nav class="flex justify-center items-center justify-between">
+                <ul class="flex gap-[15px] text-sm md:text-xl">
+                    <li class="text-black">about us</li>
+                    <li class="text-black">join us</li>
+                    <li class="text-black">blog</li>
+                </ul>
+
+                <p class="text-sm md:text-xl">this website is for learning :)</p>
+            </nav>
+        </section>
+
+    </footer>
+   
+</body>
+</html>
